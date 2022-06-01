@@ -5,7 +5,7 @@ const prompt = require('prompt-sync')({
 (Math.floor(Math.random() * 101)); // gives us 0-100
 
 
-let inputOne = prompt("I am thinking of a number between 1 and 100. You only have 3 chances, so good luck."); // This requests an input from the user
+prompt("I am thinking of a number between 1 and 100. You only have 3 chances, so good luck."); // This requests an input from the user
 
 let userInput = Number(prompt("> "))
 let comPut = (Math.floor(Math.random() * 100));
