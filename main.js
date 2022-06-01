@@ -14,10 +14,10 @@ let count = 0
 while (count < 2 && userInput !== comPut) {
     if (userInput < comPut) {
         console.log("Sorry, too low! Guess again")
-        userInput = Number(prompt("> "))
+        Number(prompt("> "))
     } else if (userInput > comPut) {
         console.log("Sorry, too high!, Guess again")
-        userInput = Number(prompt("> "))
+        Number(prompt("> "))
     }
     count++
 }
