@@ -8,7 +8,7 @@ const prompt = require('prompt-sync')({
 let inputOne = prompt("I am thinking of a number between 1 and 100. You only have 3 chances, so good luck."); // This requests an input from the user
 
 let userInput = Number(prompt("> "))
-let comPut = (Math.floor(Math.random() * 10));
+let comPut = (Math.floor(Math.random() * 100));
 let count = 0
 
 while (count < 2 && userInput !== comPut) {
